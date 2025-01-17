@@ -1,0 +1,41 @@
+/* Basic styling for the recorder UI */
+#wvc-recorder-container {
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+#wvc-recorder-container button {
+    margin-right: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#wvc-playback audio {
+    margin-top: 10px;
+    max-width: 100%;
+    display: block;
+}
+
+/* Audio player appended to comment text */
+.wvc-comment-audio audio {
+    display: block;
+    margin-top: 8px;
+    max-width: 100%;
+}
+
+/* Reaction buttons if you want them inline with the comment */
+.wvc-voice-reactions {
+    margin-top: 8px;
+}
+
+.wvc-voice-reactions button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background: #ddd;
+    cursor: pointer;
+}
+.wvc-voice-reactions button:hover {
+    background: #ccc;
+}
